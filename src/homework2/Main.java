@@ -1,10 +1,11 @@
 package homework2;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
+
+import static auxiliary.Functions.*;
 
 public class Main {
+
     public static void main(String[] args) {
 
         // Test for task 1
@@ -51,40 +52,5 @@ public class Main {
         }
 
         Deposit.calculate(money, percent, (int) years);*/
-    }
-
-    public static double enterNumber() {
-        Scanner scanner = new Scanner(System.in);
-        do {
-            try {
-                return Double.parseDouble(scanner.next());
-            } catch (NumberFormatException e) {
-                e.printStackTrace();
-                System.out.println("Incorrect input, try again");
-            }
-        } while (true);
-    }
-
-    public static double enterPositiveNumber() {
-        double num = enterNumber();
-        while (num <= 0) {
-            System.out.println("Please, enter a positive number");
-            num = enterNumber();
-        }
-        return num;
-    }
-
-    public static List<Double> enterListOfNumbers() {
-        Scanner scanner = new Scanner(System.in);
-        List<Double> numbers = new ArrayList<>();
-
-        System.out.println("Start entering numbers\nEnter any symbol to stop");
-        do {
-            try {
-                numbers.add(Double.parseDouble(scanner.next()));
-            } catch (NumberFormatException e) {
-                return numbers;
-            }
-        } while (true);
     }
 }
