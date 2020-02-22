@@ -1,5 +1,9 @@
 package auxiliary;
 
+import java.math.BigDecimal;
+import java.math.BigInteger;
+import java.math.MathContext;
+import java.math.RoundingMode;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -9,62 +13,71 @@ import java.util.Scanner;
 
 public class Functions {
 
-    private Functions() {}
+    private Functions() {
+    }
 
-
-    public static double enterNumber() {
+    private static BigDecimal enterBigDecimal() {
         Scanner scanner = new Scanner(System.in);
-        do {
+        while (true) {
             try {
-                return Double.parseDouble(scanner.next());
+                return new BigDecimal(scanner.next());
             } catch (NumberFormatException e) {
                 System.err.println("Incorrect input, try again");
             }
-        } while (true);
+        }
     }
 
+    public static double enterNumber() {
+        return enterBigDecimal().doubleValue();
+    }
 
     public static int enterInteger() {
-        Scanner scanner = new Scanner(System.in);
-        double a = enterNumber();
-        while (Math.floor(a) != a) {
-            System.err.println("Please, enter an integer");
-            a = enterNumber();
+        while (true) {
+            BigDecimal a = enterBigDecimal();
+            if (a.compareTo(BigDecimal.valueOf(Integer.MAX_VALUE)) > 0) {
+                System.err.println("Please, enter a less number");
+                continue;
+            }
+            if (a.compareTo(BigDecimal.valueOf(Integer.MIN_VALUE)) < 0) {
+                System.err.println("Please, enter a greater number");
+                continue;
+            }
+            if (a.stripTrailingZeros().scale() > 0) {
+                System.err.println("Please, enter an integer");
+                continue;
+            }
+            return a.intValue();
         }
-        return (int) a;
-    }
 
+    }
 
     public static double enterPositiveNumber() {
-        double a = enterNumber();
-        while (a <= 0) {
+        while (true) {
+            double a = enterNumber();
+            if (a > 0) {
+                return a;
+            }
             System.err.println("Please, enter a positive number");
-            a = enterNumber();
         }
-        return a;
     }
-
 
     public static int enterPositiveInteger() {
-        int a = enterInteger();
-        while (a <= 0) {
+        while (true) {
+            int a = enterInteger();
+            if (a > 0) {
+                return a;
+            }
             System.err.println("Please, enter a positive number");
-            a = enterInteger();
         }
-        return a;
     }
 
+    public static double setPrecision(double number, int precision) {
+        if (precision < 0) {
+            throw new IllegalArgumentException("Negative precision value");
+        }
+        return BigDecimal.valueOf(number)
+                .setScale(precision, RoundingMode.HALF_UP)
+                .doubleValue();
 
-    public static List<Double> enterListOfNumbers() {
-        Scanner scanner = new Scanner(System.in);
-        List<Double> list = new ArrayList<>();
-        System.out.println("Start entering numbers\nEnter any symbol to stop");
-        do {
-            try {
-                list.add(Double.parseDouble(scanner.next()));
-            } catch (NumberFormatException e) {
-                return list;
-            }
-        } while (true);
     }
 }

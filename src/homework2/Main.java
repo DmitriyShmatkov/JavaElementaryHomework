@@ -1,6 +1,9 @@
 package homework2;
 
-import java.util.List;
+import auxiliary.Money;
+
+import java.math.BigDecimal;
+import java.util.*;
 
 import static auxiliary.Functions.*;
 
@@ -10,47 +13,54 @@ public class Main {
 
         // Test for task 1
 
-        while (true) {
+        System.out.println("Enter 2 numbers");
 
-            System.out.println("Enter 2 numbers");
+        double a = enterNumber();
+        double b = enterNumber();
 
-            double a = enterNumber();
-            double b = enterNumber();
-
-            System.out.println("AVG = " + Average.getAverage(a, b) + "\n");
-        }
+        System.out.println("AVG = " + Average.getAverage(a, b) + "\n");
 
         // -----------------------------------------------------------------------
 
         // Test for task 2
 
-        /*while (true) {
+        List<Double> numbers = new ArrayList<>();
+        Scanner scanner = new Scanner(System.in);
 
-            List<Double> numbers = enterListOfNumbers();
+        System.out.println("Start entering numbers");
+        System.out.println("Enter \"end\" to calculate average");
 
-            System.out.println("AVG = " + Average.getAverage(numbers));
-            System.out.println();
-        }*/
+        while (true) {
+            String str = scanner.next();
+            if (str.toLowerCase().equals("end")) {
+                break;
+            }
+            try {
+                numbers.add(Double.parseDouble(str));
+            } catch (NumberFormatException e) {
+                System.err.println("Incorrect input, try again");
+            }
+        }
+        System.out.println("All numbers:");
+        System.out.println(numbers.toString());
+        System.out.println("AVG = " + Average.getAverage(numbers));
+        System.out.println();
 
         // -----------------------------------------------------------------------
 
         // Test for task 3
 
-        /*double money;
-        double percent;
-        double years;
+        Money money;
+        BigDecimal percent;
+        int years;
 
         System.out.println("Enter amount of money");
-        money = enterPositiveNumber();
+        money = new Money(enterPositiveNumber());
         System.out.println("Enter percent");
-        percent = enterPositiveNumber();
+        percent = BigDecimal.valueOf(enterPositiveNumber());
         System.out.println("Enter number of years");
-        years = enterPositiveNumber();
-        while (years <= 0 || Math.floor(years) != years) {
-            System.out.println("Incorrect input, try again");
-            years = enterPositiveNumber();
-        }
+        years = enterPositiveInteger();
 
-        Deposit.calculate(money, percent, (int) years);*/
+        Deposit.calculate(money, percent, years);
     }
 }

@@ -1,5 +1,7 @@
 package homework3;
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.Arrays;
 
 import static auxiliary.Functions.*;
@@ -193,7 +195,8 @@ public class Main {
         array[maxIndex] = tmp;
         System.out.println("Swapped min and max:");
         System.out.println(Arrays.toString(array));
-        System.out.println("Average: " + (double) sum / array.length);
+//        Calculating average
+        System.out.println("Average: " + new BigDecimal((double) sum / array.length).setScale(2, RoundingMode.HALF_UP));
 
 //        ---------------------------------------------------------
 //        13.
@@ -202,14 +205,11 @@ public class Main {
         System.out.println("\nTask 13");
         System.out.println("Display a chessboard");
         String[][] chessboard = new String[8][8];
-        String color = "⬛";
         for (int i = 0; i < chessboard.length; i++) {
-            for (int j = 0; j < chessboard.length; j++) {
-                chessboard[i][j] = color;
-                color = color.equals("⬛") ? "⬜" : "⬛";
+            for (int j = 0; j < chessboard[i].length; j++) {
+                chessboard[i][j] = (i + j) % 2 == 0 ? "⬛" : "⬜";
                 System.out.print(chessboard[i][j] + "  ");
             }
-            color = color.equals("⬛") ? "⬜" : "⬛";
             System.out.println();
         }
     }
