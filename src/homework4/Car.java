@@ -30,12 +30,6 @@ public class Car {
     }
 
     public void setFuelTankVolume(double fuelTankVolume) {
-        if (fuelTankVolume <= 0) {
-            throw new IllegalArgumentException("Non-positive fuelTankVolume value");
-        }
-        if (fuelTankVolume < fuelRemaining) {
-            throw new IllegalArgumentException("New fuelTankVolume value is less than fuelRemaining value");
-        }
         this.fuelTankVolume = fuelTankVolume;
     }
 
@@ -44,12 +38,6 @@ public class Car {
     }
 
     public void setFuelRemaining(double fuelRemaining) {
-        if (fuelRemaining < 0) {
-            throw new NegativeFuelRemainingException();
-        }
-        if (fuelRemaining > fuelTankVolume) {
-            throw new IllegalArgumentException("New fuelRemaining value is greater than fuelTankVolume value");
-        }
         this.fuelRemaining = fuelRemaining;
     }
 
@@ -58,9 +46,6 @@ public class Car {
     }
 
     public void setFuelConsumptionPer100km(double fuelConsumptionPer100km) {
-        if (fuelConsumptionPer100km <= 0) {
-            throw new IllegalArgumentException("Non-positive fuelConsumptionPer100km value");
-        }
         this.fuelConsumptionPer100km = fuelConsumptionPer100km;
     }
 
