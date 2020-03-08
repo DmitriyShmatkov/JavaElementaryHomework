@@ -1,6 +1,6 @@
 package homework5;
 
-public class GuideDog extends Dog {
+public class GuideDog extends Dog implements Guideable {
 
     private boolean isTrained;
 
@@ -14,6 +14,7 @@ public class GuideDog extends Dog {
         isTrained = trained;
     }
 
+    @Override
     public String takeHome() {
         return "A guide-dog have taken you home";
     }

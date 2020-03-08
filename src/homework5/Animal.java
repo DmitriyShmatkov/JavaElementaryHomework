@@ -1,6 +1,6 @@
 package homework5;
 
-public abstract class Animal {
+public abstract class Animal implements Speakable {
 
     private int id;
     private int age;
@@ -40,6 +40,4 @@ public abstract class Animal {
     public void setColor(String color) {
         this.color = color;
     }
-
-    public abstract String voice();
 }
