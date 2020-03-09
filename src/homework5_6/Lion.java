@@ -1,4 +1,4 @@
-package homework5;
+package homework5_6;
 
 public class Lion extends WildAnimal {
 

@@ -1,4 +1,4 @@
-package homework5;
+package homework5_6;
 
 @FunctionalInterface
 public interface Speakable {
