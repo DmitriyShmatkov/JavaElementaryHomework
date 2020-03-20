@@ -80,4 +80,37 @@ public class Functions {
                 .doubleValue();
 
     }
+
+    public static String factorToString(int factor) {
+        if (factor != 0) {
+            StringBuilder factorToString = new StringBuilder();
+            if (factor > 0) {
+                factorToString.append("+ ");
+            } else {
+                factorToString.append("- ");
+            }
+            return factorToString
+                    .append((Math.abs(factor) == 1) ? "" : Math.abs(factor))
+                    .append(" ")
+                    .toString();
+        }
+        return "";
+    }
+
+    public static String factorToString(int factor, String variableName) {
+        if (factor != 0) {
+            StringBuilder factorToString = new StringBuilder();
+            if (factor > 0) {
+                factorToString.append("+ ");
+            } else {
+                factorToString.append("- ");
+            }
+            return factorToString
+                    .append((Math.abs(factor) == 1) ? "" : Math.abs(factor))
+                    .append(variableName)
+                    .append(" ")
+                    .toString();
+        }
+        return "";
+    }
 }
