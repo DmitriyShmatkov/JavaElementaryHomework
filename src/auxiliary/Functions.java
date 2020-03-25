@@ -90,7 +90,7 @@ public class Functions {
                 factorToString.append("- ");
             }
             return factorToString
-                    .append((Math.abs(factor) == 1) ? "" : Math.abs(factor))
+                    .append(Math.abs(factor))
                     .append(" ")
                     .toString();
         }
