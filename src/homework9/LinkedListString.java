@@ -168,7 +168,7 @@ public class LinkedListString implements CustomCollection {
         return result.append(node.getString()).append("]").toString();
     }
 
-    /*public static void main(String[] args) {
+    public static void main(String[] args) {
         LinkedListString myList = new LinkedListString();
 
         myList.add("one");
@@ -185,5 +185,5 @@ public class LinkedListString implements CustomCollection {
         System.out.println(myList);
 
         System.out.println(myList.compare(Arrays.asList("one", "two", "four", "five", "seven")));
-    }*/
+    }
 }

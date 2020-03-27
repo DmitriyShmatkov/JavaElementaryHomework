@@ -45,6 +45,9 @@ public class StringCollection {
     }
 
     public String get(int index) {
+        if (index < 0 || index >= elementsNumber) {
+            throw new ArrayIndexOutOfBoundsException();
+        }
         return strings[index];
     }
 
@@ -98,8 +101,12 @@ public class StringCollection {
     }
 
     public static void main(String[] args) {
-        ArrayList<Integer> list = new ArrayList<>();
-        list.add(423);
-        list.remove((Integer) 423);
+        StringCollection collection = new StringCollection();
+        collection.add("first");
+        collection.add("second");
+        collection.add("third");
+        System.out.println(collection.get(0));
+        System.out.println(collection.get(1));
+        System.out.println(collection.get(2));
     }
 }
