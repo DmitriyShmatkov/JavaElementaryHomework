@@ -2,24 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4eafe32-4806-4d29-adfa-74b8c64590ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven/maven.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven/src/main/java/homework12/StringCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven/src/test/java/StringCollectionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven/src/main/java/homework13/StreamUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven/src/test/java/StreamUtilsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven/target/classes/homework12/StringCollection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/maven/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/maven/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaElementaryHomework/java14_overveiw/Fruit$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaElementaryHomework/java14_overveiw/Fruit$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaElementaryHomework/java14_overveiw/Fruit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaElementaryHomework/java14_overveiw/Fruit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaElementaryHomework/java14_overveiw/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaElementaryHomework/java14_overveiw/Person.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,40 +69,13 @@
       <recent name="homework7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StringCollectionTest">
-    <configuration name="Fruit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java14_overveiw.Fruit" />
-      <module name="JavaElementaryHomework" />
+  <component name="RunManager" selected="JUnit.StreamUtilsTest">
+    <configuration name="StreamUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework13.StreamUtils" />
+      <module name="maven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java14_overveiw.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedListString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework9.LinkedListString" />
-      <module name="JavaElementaryHomework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java14_overveiw.Person" />
-      <module name="JavaElementaryHomework" />
-      <option name="VM_PARAMETERS" value="-XX:+ShowCodeDetailsInExceptionMessages" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java14_overveiw.*" />
+          <option name="PATTERN" value="homework13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,6 +103,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maven" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StreamUtilsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamUtilsTest.toUpperCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maven" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StreamUtilsTest" />
+      <option name="METHOD_NAME" value="toUpperCaseTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StringCollectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maven" />
       <option name="PACKAGE_NAME" value="" />
@@ -150,19 +133,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.StringCollection" />
-      <item itemvalue="Application.LinkedListString" />
-      <item itemvalue="Application.Person" />
-      <item itemvalue="Application.Fruit" />
       <item itemvalue="Application.StringCollection (1)" />
       <item itemvalue="JUnit.StringCollectionTest" />
+      <item itemvalue="Application.StreamUtils" />
+      <item itemvalue="JUnit.StreamUtilsTest" />
+      <item itemvalue="JUnit.StreamUtilsTest.toUpperCaseTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StreamUtilsTest" />
+        <item itemvalue="JUnit.StreamUtilsTest.toUpperCaseTest" />
+        <item itemvalue="Application.StreamUtils" />
         <item itemvalue="JUnit.StringCollectionTest" />
         <item itemvalue="Application.StringCollection (1)" />
-        <item itemvalue="Application.Fruit" />
-        <item itemvalue="Application.Person" />
-        <item itemvalue="Application.LinkedListString" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +179,7 @@
       <workItem from="1585570890347" duration="1836000" />
       <workItem from="1585572887375" duration="773000" />
       <workItem from="1585573696693" duration="2193000" />
-      <workItem from="1585582874006" duration="11315000" />
+      <workItem from="1585582874006" duration="17698000" />
     </task>
     <servers />
   </component>
@@ -216,10 +199,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1582021164216" />
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585316341985">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585635971451">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1585316341985" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1585635971451" />
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1585602945435">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -248,46 +231,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="138" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585574062970" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1585633781260">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1585662025830">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585633781260" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1585633781260">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585662025830" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1585662025829">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585633781260" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1585633781260">
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585662025829" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1585662025829">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585633781260" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1585633781260">
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585662025829" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1585662025830">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585633781260" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1585633781260">
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585662025830" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1585662025831">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585633781260" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1585633781260">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585662025831" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1585662025830">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585633781260" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1585633781260">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585662025830" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1585662025830">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585633781260" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1585633781260">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585662025830" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1585662025830">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585633781260" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585662025830" />
     <state x="349" y="155" key="IDE.errors.dialog" timestamp="1585314076451">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="349" y="155" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1585314076451" />
-    <state x="277" y="0" key="SettingsEditor" timestamp="1585601482843">
+    <state x="277" y="0" key="SettingsEditor" timestamp="1585636073044">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585601482843" />
+    <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585636073044" />
     <state x="499" y="178" key="extract.method.dialog" timestamp="1584717908119">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -300,10 +283,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="475" y="159" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1585599625227" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1582324948381">
+    <state x="425" y="187" key="run.anything.popup" timestamp="1585660366290">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1582324948381" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1585660366290" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1584707591685">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
