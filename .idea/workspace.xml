@@ -2,45 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4eafe32-4806-4d29-adfa-74b8c64590ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/java14_overveiw/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java14_overveiw/FruitType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java14_overveiw/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven/maven.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven/src/main/java/homework12/StringCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven/src/test/java/StringCollectionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaElementaryHomework/META-INF/JavaElementaryHomework.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaElementaryHomework/auxiliary/Functions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaElementaryHomework/auxiliary/Functions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaElementaryHomework/auxiliary/Money.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaElementaryHomework/auxiliary/Money.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaElementaryHomework/classwork/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaElementaryHomework/classwork/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaElementaryHomework/classwork/MyArrayClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaElementaryHomework/classwork/MyArrayClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework10/ArrayIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework10/ArrayIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework10/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework10/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework2/Average.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework2/Average.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework2/Deposit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework2/Deposit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework3/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework4/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework4/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework4/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework4/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework4/NegativeFuelRemainingException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework4/NegativeFuelRemainingException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework5_6/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework5_6/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework5_6/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework5_6/Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework5_6/Crocodile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework5_6/Crocodile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework5_6/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework5_6/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework5_6/Fish.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework5_6/Fish.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework5_6/Giraffe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework5_6/Giraffe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework5_6/GuideDog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework5_6/GuideDog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework5_6/Guideable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework5_6/Guideable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework5_6/Hamster.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework5_6/Hamster.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework5_6/Lion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework5_6/Lion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework5_6/Pet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework5_6/Pet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework5_6/Speakable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework5_6/Speakable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework5_6/WildAnimal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework5_6/WildAnimal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework5_6/Wolf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework5_6/Wolf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework7/StringCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework7/StringCollection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework9/CustomCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework9/CustomCollection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework9/LinkedListString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework9/LinkedListString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework9/NodeString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaElementaryHomework/homework9/NodeString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework7/StringCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework7/StringCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework9/LinkedListString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework9/LinkedListString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +56,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="ignore.preview.features.used" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="14" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -84,17 +65,20 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="homework12" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="homework7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Fruit">
+  <component name="RunManager" selected="JUnit.StringCollectionTest">
     <configuration name="Fruit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java14_overveiw.Fruit" />
       <module name="JavaElementaryHomework" />
@@ -121,32 +105,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework4.Main" />
-      <module name="JavaElementaryHomework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework10.Main" />
-      <module name="JavaElementaryHomework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java14_overveiw.Person" />
       <module name="JavaElementaryHomework" />
@@ -161,6 +119,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringCollection (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework12.StringCollection" />
+      <module name="maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StringCollection" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework7.StringCollection" />
       <module name="JavaElementaryHomework" />
@@ -168,21 +139,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringCollectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maven" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StringCollectionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.StringCollection" />
       <item itemvalue="Application.LinkedListString" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Person" />
       <item itemvalue="Application.Fruit" />
+      <item itemvalue="Application.StringCollection (1)" />
+      <item itemvalue="JUnit.StringCollectionTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringCollectionTest" />
+        <item itemvalue="Application.StringCollection (1)" />
         <item itemvalue="Application.Fruit" />
         <item itemvalue="Application.Person" />
         <item itemvalue="Application.LinkedListString" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -212,6 +192,11 @@
       <workItem from="1585227013194" duration="2244000" />
       <workItem from="1585233761869" duration="4532000" />
       <workItem from="1585309555068" duration="7276000" />
+      <workItem from="1585400976683" duration="126000" />
+      <workItem from="1585570890347" duration="1836000" />
+      <workItem from="1585572887375" duration="773000" />
+      <workItem from="1585573696693" duration="2193000" />
+      <workItem from="1585582874006" duration="11315000" />
     </task>
     <servers />
   </component>
@@ -223,6 +208,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="70" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1581858807867" />
+    <state x="249" y="0" key="#Project_Structure" timestamp="1585632380892">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1585632380892" />
     <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1582021164216">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -231,10 +220,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1585316341985" />
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1585317629699">
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1585602945435">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1585317629699" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1585602945435" />
     <state x="500" y="188" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1585234281272">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -255,38 +244,62 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="523" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1584702988286" />
-    <state x="549" y="138" key="FileChooserDialogImpl" timestamp="1584708060730">
+    <state x="549" y="138" key="FileChooserDialogImpl" timestamp="1585574062970">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="138" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584708060730" />
-    <state width="1493" height="361" key="GridCell.Tab.0.bottom" timestamp="1585319883055">
+    <state x="549" y="138" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585574062970" />
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1585633781260">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="361" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585319883055" />
-    <state width="1493" height="361" key="GridCell.Tab.0.center" timestamp="1585319883055">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585633781260" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1585633781260">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="361" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585319883055" />
-    <state width="1493" height="361" key="GridCell.Tab.0.left" timestamp="1585319883055">
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585633781260" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1585633781260">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="361" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585319883055" />
-    <state width="1493" height="361" key="GridCell.Tab.0.right" timestamp="1585319883055">
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585633781260" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1585633781260">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="361" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585319883055" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585633781260" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1585633781260">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585633781260" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1585633781260">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585633781260" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1585633781260">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585633781260" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1585633781260">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585633781260" />
     <state x="349" y="155" key="IDE.errors.dialog" timestamp="1585314076451">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="349" y="155" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1585314076451" />
-    <state x="277" y="0" key="SettingsEditor" timestamp="1585316121197">
+    <state x="277" y="0" key="SettingsEditor" timestamp="1585601482843">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585316121197" />
+    <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585601482843" />
     <state x="499" y="178" key="extract.method.dialog" timestamp="1584717908119">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="178" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1584717908119" />
+    <state x="209" y="32" key="new project wizard" timestamp="1585571171161">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="32" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1585571171161" />
+    <state x="475" y="159" key="refactoring.ChangeSignatureDialog" timestamp="1585599625227">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="475" y="159" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1585599625227" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1582324948381">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
