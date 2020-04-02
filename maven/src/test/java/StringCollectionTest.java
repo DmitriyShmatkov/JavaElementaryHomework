@@ -18,8 +18,16 @@ public class StringCollectionTest {
 
     @Test
     public void addTest() {
-        assertTrue(collection.add("four"));
         assertFalse(collection.add(null));
+        assertTrue(collection.add("four"));
+
+        StringCollection expectedCollection = new StringCollection();
+        expectedCollection.add("one");
+        expectedCollection.add("two");
+        expectedCollection.add("three");
+        expectedCollection.add("four");
+
+        assertEquals(expectedCollection, collection);
     }
 
     @Test
@@ -27,13 +35,23 @@ public class StringCollectionTest {
         assertFalse(collection.remove(null));
         assertFalse(collection.remove("four"));
         assertTrue(collection.remove("one"));
+
+        StringCollection expectedCollection = new StringCollection();
+        expectedCollection.add("two");
+        expectedCollection.add("three");
+
+        assertEquals(expectedCollection, collection);
     }
 
     @Test
     public void getTest() {
+        assertEquals("one", collection.get(0));
+    }
+
+    @Test
+    public void getInvalidIndexTest() {
         assertThrows(IndexOutOfBoundsException.class, () -> collection.get(-1));
         assertThrows(IndexOutOfBoundsException.class, () -> collection.get(4));
-        assertEquals("one", collection.get(0));
     }
 
     @Test
