@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b4eafe32-4806-4d29-adfa-74b8c64590ba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/maven/src/main/java/homework14/Algorithms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven/src/test/java/AlgorithmsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven/src/test/java/StringCollectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven/src/test/java/StringCollectionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +57,8 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reactor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -63,20 +68,7 @@
       <recent name="homework7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StringCollectionTest">
-    <configuration name="StreamUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework13.StreamUtils" />
-      <module name="maven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework13.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.AlgorithmsTest">
     <configuration name="StringCollection (1)" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework12.StringCollection" />
       <module name="maven" />
@@ -97,30 +89,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AlgorithmsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maven" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StreamUtilsTest" />
+      <option name="MAIN_CLASS_NAME" value="AlgorithmsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamUtilsTest.toUpperCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AlgorithmsTest.binarySearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maven" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StreamUtilsTest" />
-      <option name="METHOD_NAME" value="toUpperCaseTest" />
+      <option name="MAIN_CLASS_NAME" value="AlgorithmsTest" />
+      <option name="METHOD_NAME" value="binarySearchTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCollectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AlgorithmsTest.bubbleSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maven" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StringCollectionTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="AlgorithmsTest" />
+      <option name="METHOD_NAME" value="bubbleSortTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlgorithmsTest.insertionSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maven" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AlgorithmsTest" />
+      <option name="METHOD_NAME" value="insertionSortTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlgorithmsTest.interpolationSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maven" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AlgorithmsTest" />
+      <option name="METHOD_NAME" value="interpolationSearchTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,17 +141,19 @@
     <list>
       <item itemvalue="Application.StringCollection" />
       <item itemvalue="Application.StringCollection (1)" />
-      <item itemvalue="Application.StreamUtils" />
-      <item itemvalue="JUnit.StringCollectionTest" />
-      <item itemvalue="JUnit.StreamUtilsTest" />
-      <item itemvalue="JUnit.StreamUtilsTest.toUpperCaseTest" />
+      <item itemvalue="JUnit.AlgorithmsTest" />
+      <item itemvalue="JUnit.AlgorithmsTest.bubbleSortTest" />
+      <item itemvalue="JUnit.AlgorithmsTest.insertionSortTest" />
+      <item itemvalue="JUnit.AlgorithmsTest.binarySearchTest" />
+      <item itemvalue="JUnit.AlgorithmsTest.interpolationSearchTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StringCollectionTest" />
-        <item itemvalue="JUnit.StreamUtilsTest" />
-        <item itemvalue="JUnit.StreamUtilsTest.toUpperCaseTest" />
-        <item itemvalue="Application.StreamUtils" />
+        <item itemvalue="JUnit.AlgorithmsTest" />
+        <item itemvalue="JUnit.AlgorithmsTest.interpolationSearchTest" />
+        <item itemvalue="JUnit.AlgorithmsTest.binarySearchTest" />
+        <item itemvalue="JUnit.AlgorithmsTest.insertionSortTest" />
+        <item itemvalue="JUnit.AlgorithmsTest.bubbleSortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -173,12 +188,14 @@
       <workItem from="1585572887375" duration="773000" />
       <workItem from="1585573696693" duration="2193000" />
       <workItem from="1585582874006" duration="17698000" />
-      <workItem from="1585834196335" duration="2382000" />
+      <workItem from="1585834196335" duration="4916000" />
+      <workItem from="1585881908894" duration="428000" />
+      <workItem from="1585914010882" duration="7508000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="70" key="#Notifications" timestamp="1581858807867">
@@ -225,50 +242,54 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="523" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1584702988286" />
+    <state x="516" y="246" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1585917607408">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="516" y="246" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1585917607408" />
     <state x="549" y="138" key="FileChooserDialogImpl" timestamp="1585574062970">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="138" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585574062970" />
-    <state width="1493" height="361" key="GridCell.Tab.0.bottom" timestamp="1585839840060">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1585921539663">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="361" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585839840060" />
-    <state width="1493" height="361" key="GridCell.Tab.0.center" timestamp="1585839840060">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585921539663" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1585921539663">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="361" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585839840060" />
-    <state width="1493" height="361" key="GridCell.Tab.0.left" timestamp="1585839840060">
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585921539663" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1585921539663">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="361" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585839840060" />
-    <state width="1493" height="361" key="GridCell.Tab.0.right" timestamp="1585839840060">
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585921539663" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1585921539663">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="361" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585839840060" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1585662025831">
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585921539663" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1585921539664">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585662025831" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1585662025830">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585921539664" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1585921539664">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585662025830" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1585662025830">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585921539664" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1585921539664">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585662025830" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1585662025830">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585921539664" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1585921539664">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585662025830" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585921539664" />
     <state x="349" y="155" key="IDE.errors.dialog" timestamp="1585314076451">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="349" y="155" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1585314076451" />
-    <state x="277" y="0" key="SettingsEditor" timestamp="1585636073044">
+    <state x="277" y="0" key="SettingsEditor" timestamp="1585918792847">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585636073044" />
+    <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585918792847" />
     <state x="499" y="178" key="extract.method.dialog" timestamp="1584717908119">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -281,10 +302,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="475" y="159" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1585599625227" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1585660366290">
+    <state x="425" y="187" key="run.anything.popup" timestamp="1585914424790">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1585660366290" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1585914424790" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1584707591685">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
