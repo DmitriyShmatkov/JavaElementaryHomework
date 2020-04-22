@@ -1,0 +1,58 @@
+    Plays History
+
+
+
+22.04.2020 12:15
+
+Matches: 5
+1. 0:0 (Paper - Paper)
+2. 0:0 (Rock - Rock)
+3. 0:1 (Scissors - Rock)
+4. 0:2 (Scissors - Rock)
+5. 0:3 (Scissors - Rock)
+You lost
+
+
+
+22.04.2020 12:34
+
+Matches: 5
+1. 1:0 (Scissors - Paper)
+2. 2:0 (Rock - Scissors)
+3. 3:0 (Rock - Scissors)
+4. 3:1 (Paper - Scissors)
+5. 3:1 (Paper - Paper)
+You won
+
+
+
+22.04.2020 12:37
+
+Matches: 2
+1. 0:1 (Paper - Scissors)
+2. 0:2 (Scissors - Rock)
+You lost
+
+
+
+22.04.2020 12:37
+
+Matches: 2
+1. 1:0 (Paper - Rock)
+2. 1:1 (Paper - Scissors)
+Draw
+
+
+
+22.04.2020 12:40
+
+Matches: 6
+1. 0:0 (Rock - Rock)
+2. 1:0 (Scissors - Paper)
+3. 2:0 (Scissors - Paper)
+4. 2:0 (Paper - Paper)
+5. 2:0 (Paper - Paper)
+6. Quit
+
+
+
