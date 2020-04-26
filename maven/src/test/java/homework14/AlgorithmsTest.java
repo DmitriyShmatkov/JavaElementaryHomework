@@ -1,3 +1,5 @@
+package homework14;
+
 import homework14.Algorithms;
 import org.junit.jupiter.api.Test;
 

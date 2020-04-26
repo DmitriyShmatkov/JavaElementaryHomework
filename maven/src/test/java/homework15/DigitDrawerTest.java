@@ -1,3 +1,5 @@
+package homework15;
+
 import homework15.DigitDrawer;
 import org.junit.jupiter.api.Test;
 

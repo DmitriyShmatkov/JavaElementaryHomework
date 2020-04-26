@@ -13,4 +13,9 @@
       <module name="maven" target="14" />
     </bytecodeTargetLevel>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="maven" options="" />
+    </option>
+  </component>
 </project>
