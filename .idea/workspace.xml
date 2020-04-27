@@ -5,33 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4eafe32-4806-4d29-adfa-74b8c64590ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven/src/main/java/homework17/Converter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven/src/test/java/homework17/ConverterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven/src/test/java/homework17/jsonToYaml/example.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven/src/test/java/homework17/yamlToJson/example.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven/src/main/java/homework18/BankClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven/src/main/java/homework18/BankTerminal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven/src/main/java/homework18/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven/src/main/java/homework18/ScannerSingleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/maven/maven.iml" beforeDir="false" afterPath="$PROJECT_DIR$/maven/maven.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/maven/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/maven/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven/src/test/java/AlgorithmsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven/src/test/java/homework14/AlgorithmsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven/src/test/java/DigitDrawerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven/src/test/java/homework15/DigitDrawerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven/src/test/java/StreamUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven/src/test/java/homework13/StreamUtilsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven/src/test/java/StringCollectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven/src/test/java/homework12/StringCollectionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven/target/classes/homework16/RockPaperScissorsGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/maven/target/classes/homework16/RockPaperScissorsGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven/target/maven-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/maven/target/maven-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/maven/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/maven/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/maven/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/maven/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/maven/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven/target/surefire-reports/StringCollectionTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven/target/surefire-reports/TEST-StringCollectionTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven/target/test-classes/AlgorithmsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven/target/test-classes/DigitDrawerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven/target/test-classes/StreamUtilsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven/target/test-classes/StringCollectionTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,11 +79,12 @@
       <recent name="homework12" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="homework18" />
       <recent name="homework16" />
       <recent name="homework7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ConverterTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Converter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework17.Converter" />
       <module name="maven" />
@@ -116,13 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DigitDrawer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework15.DigitDrawer" />
+    <configuration name="JsonToYamlConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework17.JsonToYamlConverter" />
       <module name="maven" />
-      <option name="VM_PARAMETERS" value="-XX:+ShowCodeDetailsInExceptionMessages" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework15.*" />
+          <option name="PATTERN" value="homework17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonToYamlConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework17.JsonToYamlConverter" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework18.Main" />
       <module name="maven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework17.*" />
+          <option name="PATTERN" value="homework18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,19 +191,19 @@
     <list>
       <item itemvalue="Application.StringCollection" />
       <item itemvalue="Application.StringCollection (1)" />
-      <item itemvalue="Application.DigitDrawer" />
       <item itemvalue="Application.JsonToYamlConverter" />
       <item itemvalue="Application.Converter" />
       <item itemvalue="JUnit.ConverterTest" />
       <item itemvalue="JUnit.ConverterTest.convertYamlToJsonTest" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ConverterTest" />
         <item itemvalue="JUnit.ConverterTest.convertYamlToJsonTest" />
         <item itemvalue="Application.Converter" />
         <item itemvalue="Application.JsonToYamlConverter" />
-        <item itemvalue="Application.DigitDrawer" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +247,7 @@
       <workItem from="1586973302145" duration="162000" />
       <workItem from="1586981031748" duration="402000" />
       <workItem from="1587523347851" duration="26903000" />
-      <workItem from="1587925008728" duration="6930000" />
+      <workItem from="1587925008728" duration="23953000" />
     </task>
     <servers />
   </component>
@@ -286,22 +267,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="534" y="14" key="#StringCollection_(1)/0.0.1536.824@0.0.1536.824" timestamp="1585839737599" />
-    <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1582021164216">
+    <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1587956102726">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1582021164216" />
+    <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1587956102726" />
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586340342886">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1586340342886" />
-    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1587931965736">
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1587947072545">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1587931965736" />
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1587925349267">
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1587947072545" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1587951087264">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1587925349267" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1587951087264" />
     <state x="500" y="188" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1585234281272">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -338,22 +319,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="138" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585574062970" />
-    <state width="1493" height="505" key="GridCell.Tab.0.bottom" timestamp="1587931361442">
+    <state width="1493" height="548" key="GridCell.Tab.0.bottom" timestamp="1587983515313">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="505" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587931361442" />
-    <state width="1493" height="505" key="GridCell.Tab.0.center" timestamp="1587931361442">
+    <state width="1493" height="548" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587983515313" />
+    <state width="1493" height="548" key="GridCell.Tab.0.center" timestamp="1587983515313">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="505" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587931361442" />
-    <state width="1493" height="505" key="GridCell.Tab.0.left" timestamp="1587931361442">
+    <state width="1493" height="548" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587983515313" />
+    <state width="1493" height="548" key="GridCell.Tab.0.left" timestamp="1587983515313">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="505" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587931361442" />
-    <state width="1493" height="505" key="GridCell.Tab.0.right" timestamp="1587931361442">
+    <state width="1493" height="548" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587983515313" />
+    <state width="1493" height="548" key="GridCell.Tab.0.right" timestamp="1587983515313">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="505" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587931361442" />
+    <state width="1493" height="548" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587983515313" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1587931347012">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -386,17 +367,17 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="209" y="32" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1585571171161" />
-    <state x="475" y="159" key="refactoring.ChangeSignatureDialog" timestamp="1585599625227">
+    <state x="475" y="159" key="refactoring.ChangeSignatureDialog" timestamp="1587955877766">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="475" y="159" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1585599625227" />
+    <state x="475" y="159" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1587955877766" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1585914424790">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1585914424790" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1584707591685">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1587954296412">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1584707591685" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1587954296412" />
   </component>
 </project>
