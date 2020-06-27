@@ -1,12 +1,20 @@
-package homework22;
+package homework22.service;
+
+import homework22.ConnectionManager;
+import homework22.Mapper;
+import homework22.entity.Group;
+import homework22.entity.Student;
+import homework22.entity.StudentAssessment;
 
 import java.sql.*;
 import java.util.*;
 
 public class StudentService {
+    Mapper mapper;
 
     public StudentService() throws ClassNotFoundException {
         Class.forName("org.postgresql.Driver");
+        mapper = new Mapper();
     }
 
     public List<Student> getAllStudents() throws SQLException {
@@ -21,7 +29,7 @@ public class StudentService {
 
         List<Student> students = new ArrayList<>();
         while (resultSet.next()) {
-            students.add(mapStudent(resultSet));
+            students.add(mapper.mapStudent(resultSet));
         }
         return students;
     }
@@ -58,7 +66,7 @@ public class StudentService {
 
         List<StudentAssessment> assessments = new ArrayList<>();
         while (resultSet.next()) {
-            assessments.add(mapStudentAssessment(resultSet));
+            assessments.add(mapper.mapStudentAssessment(resultSet));
         }
         return assessments;
     }
@@ -70,60 +78,4 @@ public class StudentService {
                 .average();
         return optionalDouble.isPresent() ? optionalDouble.getAsDouble() : null;
     }
-
-
-    private Student mapStudent(ResultSet resultSet) throws SQLException {
-        return new Student(
-                resultSet.getInt("student_id"),
-                resultSet.getString("first_name"),
-                resultSet.getString("middle_name"),
-                resultSet.getString("second_name"),
-                mapGroup(resultSet),
-                resultSet.getInt("enter_year")
-        );
-    }
-
-    private Group mapGroup(ResultSet resultSet) throws SQLException {
-        return new Group(
-                resultSet.getInt("student_group_id"),
-                resultSet.getString("name")
-        );
-    }
-
-    private StudentAssessment mapStudentAssessment(ResultSet resultSet) throws SQLException {
-        return new StudentAssessment(
-                resultSet.getInt("student_assessment_id"),
-                mapStudent(resultSet),
-                mapSubject(resultSet),
-                resultSet.getInt("assessment")
-        );
-    }
-
-    private Subject mapSubject(ResultSet resultSet) throws SQLException {
-        return new Subject(
-                resultSet.getInt("subject_id"),
-                resultSet.getString("name"),
-                mapLecturer(resultSet),
-                resultSet.getInt("year")
-        );
-    }
-
-    private Lecturer mapLecturer(ResultSet resultSet) throws SQLException {
-        return new Lecturer(
-                resultSet.getInt("lecturer_id"),
-                resultSet.getString("first_name"),
-                resultSet.getString("middle_name"),
-                resultSet.getString("second_name"),
-                mapDepartment(resultSet)
-        );
-    }
-
-    private Department mapDepartment(ResultSet resultSet) throws SQLException {
-        return new Department(
-                resultSet.getInt("department_id"),
-                resultSet.getString("name"),
-                resultSet.getString("head")
-        );
-    }
-
 }
