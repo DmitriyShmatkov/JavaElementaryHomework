@@ -56,3 +56,14 @@ Matches: 6
 
 
 
+13.06.2020 11:37
+
+Matches: 4
+1. 0:0 (Rock - Rock)
+2. 1:0 (Paper - Rock)
+3. 2:0 (Scissors - Paper)
+4. 3:0 (Rock - Scissors)
+You won
+
+
+

@@ -10,7 +10,7 @@ public class StudentService {
     }
 
     public List<Student> getAllStudents() throws SQLException {
-        Connection connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/university_db", "postgres", "DShmatkov");
+        Connection connection = ConnectionManager.getConnection();
         Statement statement = connection.createStatement();
         ResultSet resultSet = statement.executeQuery("""
                 SELECT * FROM student
@@ -39,7 +39,7 @@ public class StudentService {
     }
 
     public List<StudentAssessment> getStudentAssessment(Student student) throws SQLException {
-        Connection connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/university_db", "postgres", "DShmatkov");
+        Connection connection = ConnectionManager.getConnection();
         Statement statement = connection.createStatement();
         ResultSet resultSet = statement.executeQuery("""
                 SELECT * FROM student_assessment
