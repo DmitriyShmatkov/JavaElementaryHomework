@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4eafe32-4806-4d29-adfa-74b8c64590ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/maven/src/main/java/homework22/Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven/src/main/java/homework22/jsp/delete.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven/src/main/java/homework22/jsp/get.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven/src/main/java/homework22/jsp/post.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven/src/main/java/homework22/service/GroupService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6e1e73c8-02b0-4276-a4d4-35a7d45930a4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6e1e73c8-02b0-4276-a4d4-35a7d45930a4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6e1e73c8-02b0-4276-a4d4-35a7d45930a4/storage_v2/_src_/database/university_db.z9NYOg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6e1e73c8-02b0-4276-a4d4-35a7d45930a4/storage_v2/_src_/database/university_db.z9NYOg/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven/src/main/java/homework22/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven/src/main/java/homework22/entity/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven/src/main/java/homework22/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven/src/main/java/homework22/entity/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven/src/main/java/homework22/Lecturer.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven/src/main/java/homework22/entity/Lecturer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven/src/main/java/homework22/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven/src/main/java/homework22/entity/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven/src/main/java/homework22/StudentAssessment.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven/src/main/java/homework22/entity/StudentAssessment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven/src/main/java/homework22/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven/src/main/java/homework22/service/StudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven/src/main/java/homework22/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven/src/main/java/homework22/entity/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven/src/main/java/homework22/jsp/get.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/maven/src/main/java/homework22/jsp/get.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -272,7 +257,7 @@
       <workItem from="1589489298213" duration="532000" />
       <workItem from="1589788882799" duration="81000" />
       <workItem from="1592037255900" duration="1464000" />
-      <workItem from="1593213829420" duration="10813000" />
+      <workItem from="1593213829420" duration="11457000" />
     </task>
     <servers />
   </component>

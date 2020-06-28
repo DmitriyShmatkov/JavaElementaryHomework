@@ -30,15 +30,17 @@
     StringBuilder stringBuilder = new StringBuilder();
     int counter = 0;
     for (Student student : students) {
-        counter++;
-        stringBuilder
-                .append(counter).append(". ")
-                .append("ID: ").append(student.id()).append(", ")
-                .append(student.secondName()).append(" ")
-                .append(student.firstName()).append(" ")
-                .append(student.middleName()).append(", ")
-                .append(student.group().name()).append(", ")
-                .append("год поступления: ").append(student.enterYear()).append("\n");
+        if (!student.isDeleted()) {
+            counter++;
+            stringBuilder
+                    .append(counter).append(". ")
+                    .append("ID: ").append(student.id()).append(", ")
+                    .append(student.secondName()).append(" ")
+                    .append(student.firstName()).append(" ")
+                    .append(student.middleName()).append(", ")
+                    .append(student.group().name()).append(", ")
+                    .append("год поступления: ").append(student.enterYear()).append("\n");
+        }
     }
 %>
 
